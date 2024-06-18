@@ -1,53 +1,44 @@
-<app-navbar></app-navbar>
-<body class="bg-dark text-white">
-
-<div class="container mt-4">
-    <div class="row">
-      <div class="col-md-8">
-        <!-- Featured Playlists -->
-        <h2 class="mb-4">Featured Playlists</h2>
-        <div class="card-deck">
-          <!-- Card 1 -->
-          <div class="card text-white" style="background-color: #353434;">
-            <img src="" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Playlist 1</h5>
-              <p class="card-text">Description of Playlist 1.</p>
-              <a href="#" class="btn btn-primary">Play</a>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <div class="sidebar-section">
+             <h3 class="heading"><i class="fa-solid fa-headphones-simple"></i> mFormusic</h3>
+                <h4 class="section-heading"><i class="fa-solid fa-house">&nbsp;</i> Home </h4>
+                <h4 class="section-heading"><i class="fa-solid fa-magnifying-glass">&nbsp;</i> Search</h4>
             </div>
-          </div>
-          <!-- Card 2 -->
-          <div class="card text-white" style="background-color: #353434;">
-            <img src="" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Playlist 2</h5>
-              <p class="card-text">Description of Playlist 2.</p>
-              <a href="#" class="btn btn-primary">Play</a>
+            <br><br><br>
+            <div class="sidebar-section">
+                <h2 class="section-heading">Your Library</h2>
+                <ul>
+                    <button class="btn btn-secondary">Create your first library</button>
+                </ul>
             </div>
-          </div>
-          <!-- Add more cards as needed -->
         </div>
-      </div>
-      <div class="col-md-4">
-        <!-- Recently Played -->
-        <h2 class="mb-4">Recently Played</h2>
-        <ul class="list-group">
-          <li class="list-group-item">Track 1</li>
-          <li class="list-group-item">Track 2</li>
-          <li class="list-group-item">Track 3</li>
-          <!-- Add more list items as needed -->
-        </ul>
-        <!-- Recommended Tracks -->
-        <h2 class="mt-4 mb-4">Recommended Tracks</h2>
-        <ul class="list-group">
-          <li class="list-group-item">Track 1</li>
-          <li class="list-group-item">Track 2</li>
-          <li class="list-group-item">Track 3</li>
-          <!-- Add more list items as needed -->
-        </ul>
-      </div>
+        
+        <!-- Right Content -->
+        <div class="right-content">
+            <div class="navbar">
+                <h2><    ></h2>
+            </div>
+            <div class="sidebar-section featured-content">
+                <h2 class="section-heading">Popular Artists</h2>
+                <ul>
+                    <li>Artist 1</li>
+                    <li>Artist 2</li>
+                    <li>Artist 3</li>
+                    <!-- Add more artists as needed -->
+                </ul>
+            </div>
+            <div class="sidebar-section featured-content">
+                <h2 class="section-heading">Featured Songs</h2>
+                <ul>
+                    <li>Song 1</li>
+                    <li>Song 2</li>
+                    <li>Song 3</li>
+                    <!-- Add more songs as needed -->
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
-  
-<router-outlet></router-outlet>
